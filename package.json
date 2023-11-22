@@ -11,8 +11,8 @@
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@expo/webpack-config": "^18.0.1",
-    "@react-native-async-storage/async-storage": "^1.19.3",
-    "@react-native-community/datetimepicker": "^7.6.0",
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-native-community/datetimepicker": "6.7.3",
     "@react-native-community/slider": "^4.4.2",
     "@react-native-community/viewpager": "^5.0.11",
     "@react-navigation/bottom-tabs": "^6.5.8",
@@ -31,7 +31,7 @@
     "mysql": "^2.18.1",
     "react": "18.2.0",
     "react-datepicker": "^4.21.0",
-    "react-native": "0.71.8",
+    "react-native": "0.71.14",
     "react-native-calendars": "^1.1301.0",
     "react-native-chart-kit": "^6.12.0",
     "react-native-datepicker": "^1.7.2",
@@ -46,7 +46,8 @@
     "react-native-web": "^0.18.12",
     "react-progressbar": "^15.4.1",
     "react-router-dom": "^6.11.2",
-    "sqlite": "^4.2.1"
+    "sqlite": "^4.2.1",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

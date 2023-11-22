@@ -32,7 +32,7 @@ const SignupForm = () => {
   // Function to send a POST request to the Spring Boot API
   const sendSignupRequest = async (userData) => {
     try {
-      const response = await axios.post('http://localhost:8080/signup', userData);
+      const response = await axios.post('welltalk.mysql.database.azure.com/signup', userData);
 
       // Handle the response here
       console.log('Response:', response.data);
